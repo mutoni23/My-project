@@ -1,5 +1,4 @@
 function giveAkanNames(){
-    
     var day = document.getElementById("day").value;
     var month = document.getElementById("month").value;
     var thousands = document.getElementById("thousand").value;
