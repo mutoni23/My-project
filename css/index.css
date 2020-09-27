@@ -8,7 +8,7 @@ body{
     margin:4em;
 }
 .button{
-    
+
     background-color: blue;
     border-radius: 3em;
     width: 6em;
@@ -17,7 +17,7 @@ body{
     margin-left: 9em;
     margin-left:6em;
 }
-label{
+label {
     color: rgb(7, 7, 6);
     padding:3px;
     margin-left:10px;
