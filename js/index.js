@@ -23,7 +23,6 @@ function giveAkanNames(){
         }   
     }
 
- 
     var century= thousands+''+hundreds;
     var decade= tens+''+ones;
     var bornDay= (((century/4) -2*century-1) + ((5*decade/4) ) + ((26*(month+1)/10)) +day ) % 7;
