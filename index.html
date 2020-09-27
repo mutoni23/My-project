@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Akan Names</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    </head>
+    <body>
+        <div class="par">
+        <h3>Akan Names</h3>
+        <p>Akan names allows users to show informations about their birth days,gender and to calculate the actual day on which they were born.we are pleased to let you know that we are always here to serve you the best</p>
+        <p>Beside is the form that shows you informations data that you have to input such as month,date,year and gender. N.B you have to insert the correct datas.</p>
+    </div>
+        
+        <form action="#" method="POST">
+            <script src="js/index.js"></script>
+
+            <h3>please fill out the form to check your akan name</h3>
+
+            <label for="day">Day</label>
+            <input type="number" id="day" name="day" ><br>
+            
+            <label for="month">Month:</label>
+            <input type="number" name="month" id="month" ><br>
+            
+            <span id="year">
+            <label for="year">Year:</label>
+            <input type="number" id="thousand" name="thous" class="me" maxlength="1"required>
+            <input type="number" id="hundred" name="hund" class="me" maxlength="1" required>
+            <input type="number" id="ten"  name="ten"  class="me" maxlength="1" required>
+            <input type="number" id="one" name="one" class="me" maxlength="1" required>
+            
+            </span><br>
+
+            <label>Gender:</label><br>
+            <select name="gender" id="gender">
+                <option value="male" >Male</option>
+                <option value="female">Female</option>
+
+            </select><br>
+
+            <input type="button" onclick="giveAkanNames()" class="button" value="submit">
+
+           
+
+        </form>
+    </body>
+
+    </html>
+

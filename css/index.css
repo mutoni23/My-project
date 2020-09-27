@@ -1,0 +1,72 @@
+body{
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:4em;
+}
+.button{
+    background-color: blue;
+    border-radius: 3em;
+    width: 6em;
+    font-weight: bold;
+    height: 1.5em;
+    margin-left: 9em;
+    margin-left:6em;
+}
+label{
+    color: rgb(7, 7, 6);
+    padding:3px;
+    margin-left:10px;
+
+}
+input{
+    height: 35px;
+    margin: 5px;
+    font-size: 25px;
+}
+select{
+    margin: 4px;
+}
+#year{
+    display: inline;
+}
+.me{
+    width: 2em;
+    height: 1em;
+}
+.par{
+    float:left;
+    border:1px solid black;
+    width:50%;
+    height:20em;
+    margin-top:14em;
+    box-shadow:5px 5px 15px black;
+}
+
+form{
+    border:1px solid black;
+    box-shadow:5px 5px 15px black;
+    float:right;
+    margin-top:14em;
+    padding:7px;
+    height:19em;
+    width:30em;
+}
+p{
+    margin:10px;
+    padding:2px;
+    line-height: 30px;
+}
+
+h3{
+    color:#cc0000;
+    text-decoration: underline;
+    text-underline-position:under ;
+    text-align: center;
+    
+}
+
+
+
