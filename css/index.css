@@ -1,5 +1,5 @@
 body{
-    
+
     background-image: url(2.jpg);
     background-repeat:no-repeat;
     background-size: cover;
@@ -8,6 +8,7 @@ body{
     margin:4em;
 }
 .button{
+    
     background-color: blue;
     border-radius: 3em;
     width: 6em;
