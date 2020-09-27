@@ -88,13 +88,13 @@ function giveAkanNames(){
                 break;
             case 3:
                 document.write("your Akan name is : " + virileNames[2]);
-                break
+                break;
             case 4:
                 document.write("your Akan name is : " + virileNames[3]);
                 break;
             case 5:
                 document.write("your Akan name is : " + virileNames[4]);
-                break
+                break;
             case 6:
                 document.write("your Akan name is : " + virileNames[5]);
                 break;
